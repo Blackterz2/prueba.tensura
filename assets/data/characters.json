@@ -1,56 +1,488 @@
 [
-  { "name": "Rimuru Tempest", "form": "Slime Ordinario (recién reencarnado)", "season": "Temporada 1", "power": 100, "archetype": "slime", "image": null, "description": "" },
-  { "name": "Rimuru Tempest", "form": "Líder de la Alianza del Gran Bosque de Jura", "season": "Temporada 1", "power": 5000, "archetype": "slime", "image": null, "description": "" },
-  { "name": "Rimuru Tempest", "form": "Demon Lord Despertado", "season": "Temporada 2 Parte 1", "power": 500000, "archetype": "demonLord", "image": null, "description": "" },
-  { "name": "Rimuru Tempest", "form": "Señor Demonio Verdadero, Ciudad de Rimuru", "season": "Temporada 2 Parte 2", "power": 3000000, "archetype": "demonLord", "image": null, "description": "" },
-  { "name": "Rimuru Tempest", "form": "Hyper-Evolucionado, Fusión con Veldora", "season": "Película: Scarlet Bond", "power": 15000000, "archetype": "dragon", "image": null, "description": "" },
-  { "name": "Rimuru Tempest", "form": "Dios Slime Definitivo", "season": "Novela / Avanzado", "power": 90000000, "archetype": "slimeGod", "image": null, "description": "" },
-  { "name": "Veldora Tempest", "form": "Dragón Tormenta, Sellado", "season": "Temporada 1", "power": 800000, "archetype": "dragon", "image": null, "description": "" },
-  { "name": "Veldora Tempest", "form": "Liberado, forma completa", "season": "Temporada 2 Parte 1", "power": 8000000, "archetype": "dragon", "image": null, "description": "" },
-  { "name": "Veldora Tempest", "form": "Dragón Definitivo, poder desatado", "season": "Novela / Avanzado", "power": 40000000, "archetype": "dragon", "image": null, "description": "" },
-  { "name": "Guy Crimson", "form": "Demon Lord Original, Rey Demonio Carmesí", "season": "Temporada 2 Parte 2", "power": 60000000, "archetype": "demonLord", "image": null, "description": "" },
-  { "name": "Milim Nava", "form": "Sellada, forma de niña", "season": "Temporada 1", "power": 1000000, "archetype": "demonLord", "image": null, "description": "" },
-  { "name": "Milim Nava", "form": "Demon Lord Completo, poder liberado", "season": "Temporada 2 Parte 2", "power": 70000000, "archetype": "dragon", "image": null, "description": "" },
-  { "name": "Diablo", "form": "Recién invocado como mayordomo", "season": "Temporada 2 Parte 1", "power": 300000, "archetype": "demonBlack", "image": null, "description": "" },
-  { "name": "Diablo", "form": "Primordial Negro, forma completa", "season": "Temporada 2 Parte 2", "power": 4500000, "archetype": "demonBlack", "image": null, "description": "" },
-  { "name": "Diablo", "form": "Demon Peer, poder consolidado", "season": "Temporada 3", "power": 12000000, "archetype": "demonBlack", "image": null, "description": "" },
-  { "name": "Benimaru", "form": "Ogro, comandante de la aldea", "season": "Temporada 1", "power": 800, "archetype": "oni", "image": null, "description": "" },
-  { "name": "Benimaru", "form": "Kijin, tras la evolución masiva", "season": "Temporada 1", "power": 15000, "archetype": "oni", "image": null, "description": "" },
-  { "name": "Benimaru", "form": "Fair Oni, Rey de la Llama", "season": "Temporada 2 Parte 2", "power": 900000, "archetype": "oniFire", "image": null, "description": "" },
-  { "name": "Shion", "form": "Ogro, secretaria de Rimuru", "season": "Temporada 1", "power": 700, "archetype": "oni", "image": null, "description": "" },
-  { "name": "Shion", "form": "Kijin, tras la evolución masiva", "season": "Temporada 1", "power": 12000, "archetype": "oni", "image": null, "description": "" },
-  { "name": "Shion", "form": "Resucitada con Habilidad Única", "season": "Temporada 2 Parte 1", "power": 400000, "archetype": "blade", "image": null, "description": "" },
-  { "name": "Souei", "form": "Ogro, jefe de espionaje", "season": "Temporada 1", "power": 650, "archetype": "oni", "image": null, "description": "" },
-  { "name": "Souei", "form": "Kijin, fortalecido", "season": "Temporada 2 Parte 1", "power": 300000, "archetype": "blade", "image": null, "description": "" },
-  { "name": "Hakuro", "form": "Kijin, maestro de espada", "season": "Temporada 1", "power": 10000, "archetype": "blade", "image": null, "description": "" },
-  { "name": "Hakuro", "form": "Kijin, poder refinado", "season": "Temporada 2 Parte 2", "power": 250000, "archetype": "blade", "image": null, "description": "" },
-  { "name": "Gobta", "form": "Goblin común", "season": "Temporada 1", "power": 50, "archetype": "goblin", "image": null, "description": "" },
-  { "name": "Gobta", "form": "Hobgoblin, tras la bendición", "season": "Temporada 1", "power": 300, "archetype": "goblin", "image": null, "description": "" },
-  { "name": "Gobta", "form": "Kijin menor, jinete de Ranga", "season": "Temporada 2 Parte 1", "power": 8000, "archetype": "goblin", "image": null, "description": "" },
-  { "name": "Ranga", "form": "Lobo Estelar, cría", "season": "Temporada 1", "power": 600, "archetype": "wolf", "image": null, "description": "" },
-  { "name": "Ranga", "form": "Lobo Estelar Evolucionado", "season": "Temporada 2 Parte 1", "power": 200000, "archetype": "wolf", "image": null, "description": "" },
-  { "name": "Hinata Sakaguchi", "form": "Santa de Occidente, espadachín", "season": "Temporada 1", "power": 350000, "archetype": "blade", "image": null, "description": "" },
-  { "name": "Clayman", "form": "Demon Lord, titiritero", "season": "Temporada 1", "power": 200000, "archetype": "demonLord", "image": null, "description": "" },
-  { "name": "Leon Cromwell", "form": "Demon Lord, Rey de Eurazania", "season": "Temporada 2 Parte 2", "power": 50000000, "archetype": "demonLord", "image": null, "description": "" },
-  { "name": "Frey", "form": "Demon Lord, la Bruja Voladora", "season": "Temporada 2 Parte 2", "power": 5000000, "archetype": "witch", "image": null, "description": "" },
-  { "name": "Dagruel", "form": "Demon Lord, el Puño de Hierro", "season": "Temporada 2 Parte 2", "power": 6000000, "archetype": "fist", "image": null, "description": "" },
-  { "name": "Carrion", "form": "Demon Lord, el Rey Bestia", "season": "Temporada 2 Parte 2", "power": 4000000, "archetype": "beastKing", "image": null, "description": "" },
-  { "name": "Ramiris", "form": "Demon Lord, guardiana del laberinto", "season": "Temporada 1", "power": 1500000, "archetype": "fairy", "image": null, "description": "" },
-  { "name": "Velgrynd", "form": "Dragona Élite, Reina del Fuego", "season": "Temporada 2 Parte 2", "power": 20000000, "archetype": "dragon", "image": null, "description": "" },
-  { "name": "Velzard", "form": "Dragona del Hielo, la Blanca", "season": "Novela / Avanzado", "power": 18000000, "archetype": "dragon", "image": null, "description": "" },
-  { "name": "Veldanava", "form": "Dios Dragón Original (leyenda)", "season": "Novela / Avanzado", "power": 100000000, "archetype": "dragon", "image": null, "description": "" },
-  { "name": "Chloe Aubert", "form": "Portadora del Hero, temporal", "season": "Temporada 2 Parte 2", "power": 2500000, "archetype": "blade", "image": null, "description": "" },
-  { "name": "Kagurazaka Yuuki", "form": "Manejadora de Héroes, forma final", "season": "Temporada 2 Parte 2", "power": 25000000, "archetype": "brain", "image": null, "description": "" },
-  { "name": "Gelmud", "form": "Fusionado con fragmento de Charybdis", "season": "Temporada 1", "power": 100000, "archetype": "chaos", "image": null, "description": "" },
-  { "name": "Charybdis", "form": "Catástrofe original, tormenta viviente", "season": "Temporada 1", "power": 700000, "archetype": "chaos", "image": null, "description": "" },
-  { "name": "Testarossa", "form": "Demon Peer, comandante", "season": "Temporada 3", "power": 10000000, "archetype": "demonBlack", "image": null, "description": "" },
-  { "name": "Ultima", "form": "Demon Peer, caótica", "season": "Temporada 3", "power": 9500000, "archetype": "demonBlack", "image": null, "description": "" },
-  { "name": "Carrera", "form": "Demon Peer, estratega", "season": "Temporada 3", "power": 9200000, "archetype": "demonBlack", "image": null, "description": "" },
-  { "name": "Rigurd", "form": "Goblin King, jefe de la aldea", "season": "Temporada 1", "power": 200, "archetype": "goblin", "image": null, "description": "" },
-  { "name": "Geld", "form": "Ogro, guerrero de la aldea vecina", "season": "Temporada 1", "power": 500, "archetype": "oni", "image": null, "description": "" },
-  { "name": "Geld", "form": "Kijin, tras la evolución", "season": "Temporada 2 Parte 1", "power": 100000, "archetype": "oni", "image": null, "description": "" },
-  { "name": "Kaijin", "form": "Enano herrero exiliado", "season": "Temporada 1", "power": 300, "archetype": "hammer", "image": null, "description": "" },
-  { "name": "Adalmann", "form": "Death Spirit Lord, no-muerto leal", "season": "Temporada 2 Parte 1", "power": 150000, "archetype": "ghost", "image": null, "description": "" },
-  { "name": "Shizu (Shizue Izawa)", "form": "Portadora del Hero original", "season": "Temporada 1", "power": 180000, "archetype": "blade", "image": null, "description": "" },
-  { "name": "Gazel Dwargo", "form": "Rey Enano, guerrero real", "season": "Temporada 1", "power": 4000, "archetype": "hammer", "image": null, "description": "" }
+  {
+    "name": "Rimuru Tempest",
+    "form": "Slime Ordinario (recién reencarnado)",
+    "season": "Temporada 1",
+    "power": 100,
+    "archetype": "slime",
+    "image": "assets/images/characters/rimuru-tempest-slime-ordinario-recien-reencar.jpg",
+    "description": "__Species:__ Human (past life) → Slime __Kind:__ Reincarnated, Otherworlder Rimuru Tempest, formerly known as Satoru Mikami, is the main protagonist of Tensei Shitara Slime Datta Ken."
+  },
+  {
+    "name": "Rimuru Tempest",
+    "form": "Líder de la Alianza del Gran Bosque de Jura",
+    "season": "Temporada 1",
+    "power": 5000,
+    "archetype": "slime",
+    "image": "assets/images/characters/rimuru-tempest-lider-de-la-alianza-del-gran-b.jpg",
+    "description": "__Species:__ Human (past life) → Slime __Kind:__ Reincarnated, Otherworlder Rimuru Tempest, formerly known as Satoru Mikami, is the main protagonist of Tensei Shitara Slime Datta Ken."
+  },
+  {
+    "name": "Rimuru Tempest",
+    "form": "Demon Lord Despertado",
+    "season": "Temporada 2 Parte 1",
+    "power": 500000,
+    "archetype": "demonLord",
+    "image": "assets/images/characters/rimuru-tempest-demon-lord-despertado.jpg",
+    "description": "__Species:__ Human (past life) → Slime __Kind:__ Reincarnated, Otherworlder Rimuru Tempest, formerly known as Satoru Mikami, is the main protagonist of Tensei Shitara Slime Datta Ken."
+  },
+  {
+    "name": "Rimuru Tempest",
+    "form": "Señor Demonio Verdadero, Ciudad de Rimuru",
+    "season": "Temporada 2 Parte 2",
+    "power": 3000000,
+    "archetype": "demonLord",
+    "image": "assets/images/characters/rimuru-tempest-senor-demonio-verdadero-ciudad.jpg",
+    "description": "__Species:__ Human (past life) → Slime __Kind:__ Reincarnated, Otherworlder Rimuru Tempest, formerly known as Satoru Mikami, is the main protagonist of Tensei Shitara Slime Datta Ken."
+  },
+  {
+    "name": "Rimuru Tempest",
+    "form": "Hyper-Evolucionado, Fusión con Veldora",
+    "season": "Película: Scarlet Bond",
+    "power": 15000000,
+    "archetype": "dragon",
+    "image": "assets/images/characters/rimuru-tempest-hyper-evolucionado-fusion-con-.jpg",
+    "description": "__Species:__ Human (past life) → Slime __Kind:__ Reincarnated, Otherworlder Rimuru Tempest, formerly known as Satoru Mikami, is the main protagonist of Tensei Shitara Slime Datta Ken."
+  },
+  {
+    "name": "Rimuru Tempest",
+    "form": "Dios Slime Definitivo",
+    "season": "Novela / Avanzado",
+    "power": 90000000,
+    "archetype": "slimeGod",
+    "image": "assets/images/characters/rimuru-tempest-dios-slime-definitivo.jpg",
+    "description": "__Species:__ Human (past life) → Slime __Kind:__ Reincarnated, Otherworlder Rimuru Tempest, formerly known as Satoru Mikami, is the main protagonist of Tensei Shitara Slime Datta Ken."
+  },
+  {
+    "name": "Veldora Tempest",
+    "form": "Dragón Tormenta, Sellado",
+    "season": "Temporada 1",
+    "power": 800000,
+    "archetype": "dragon",
+    "image": "assets/images/characters/veldora-tempest-dragon-tormenta-sellado.jpg",
+    "description": "__Height:__ 210 cm (human form), 100 m (dragon form) __Species:__ True Dragon __Blessing / Divine Protection:__ Storm Dragon's Grace, Demon Lord's Ally __Disaster Rank:__ Catastrophe Veldora Tempest is the youngest of the four strongest dragons (True Dragons)."
+  },
+  {
+    "name": "Veldora Tempest",
+    "form": "Liberado, forma completa",
+    "season": "Temporada 2 Parte 1",
+    "power": 8000000,
+    "archetype": "dragon",
+    "image": "assets/images/characters/veldora-tempest-liberado-forma-completa.jpg",
+    "description": "__Height:__ 210 cm (human form), 100 m (dragon form) __Species:__ True Dragon __Blessing / Divine Protection:__ Storm Dragon's Grace, Demon Lord's Ally __Disaster Rank:__ Catastrophe Veldora Tempest is the youngest of the four strongest dragons (True Dragons)."
+  },
+  {
+    "name": "Veldora Tempest",
+    "form": "Dragón Definitivo, poder desatado",
+    "season": "Novela / Avanzado",
+    "power": 40000000,
+    "archetype": "dragon",
+    "image": "assets/images/characters/veldora-tempest-dragon-definitivo-poder-desata.jpg",
+    "description": "__Height:__ 210 cm (human form), 100 m (dragon form) __Species:__ True Dragon __Blessing / Divine Protection:__ Storm Dragon's Grace, Demon Lord's Ally __Disaster Rank:__ Catastrophe Veldora Tempest is the youngest of the four strongest dragons (True Dragons)."
+  },
+  {
+    "name": "Guy Crimson",
+    "form": "Demon Lord Original, Rey Demonio Carmesí",
+    "season": "Temporada 2 Parte 2",
+    "power": 60000000,
+    "archetype": "demonLord",
+    "image": "assets/images/characters/guy-crimson-demon-lord-original-rey-demoni.jpg",
+    "description": "Guy Crimson is the oldest of the Demon Lords. He has forever ruled over the frozen continent. Being androgynous, he can become a man or woman at will."
+  },
+  {
+    "name": "Milim Nava",
+    "form": "Sellada, forma de niña",
+    "season": "Temporada 1",
+    "power": 1000000,
+    "archetype": "demonLord",
+    "image": "assets/images/characters/milim-nava-sellada-forma-de-nina.jpg",
+    "description": "__Kind:__ Inhabitant \"Destroyer\" Milim Nava is one of the oldest and strongest Demon Lords. She is a Dragonoid. Her nickname, Destroyer, is not just for show. She is a demon lord one should never fight against."
+  },
+  {
+    "name": "Milim Nava",
+    "form": "Demon Lord Completo, poder liberado",
+    "season": "Temporada 2 Parte 2",
+    "power": 70000000,
+    "archetype": "dragon",
+    "image": "assets/images/characters/milim-nava-demon-lord-completo-poder-libe.jpg",
+    "description": "__Kind:__ Inhabitant \"Destroyer\" Milim Nava is one of the oldest and strongest Demon Lords. She is a Dragonoid. Her nickname, Destroyer, is not just for show. She is a demon lord one should never fight against."
+  },
+  {
+    "name": "Diablo",
+    "form": "Recién invocado como mayordomo",
+    "season": "Temporada 2 Parte 1",
+    "power": 300000,
+    "archetype": "demonBlack",
+    "image": "assets/images/characters/diablo-recien-invocado-como-mayordomo.jpg",
+    "description": "Diablo is the Black Primordial and a loyal servant of [Rimuru Tempest](https://anilist.co/character/123962/Tempest-Rimuru). Before he met Rimuru, he went by the nicknames Black or Noir, the latter which he received from his fellow Primordial kin."
+  },
+  {
+    "name": "Diablo",
+    "form": "Primordial Negro, forma completa",
+    "season": "Temporada 2 Parte 2",
+    "power": 4500000,
+    "archetype": "demonBlack",
+    "image": "assets/images/characters/diablo-primordial-negro-forma-complet.jpg",
+    "description": "Diablo is the Black Primordial and a loyal servant of [Rimuru Tempest](https://anilist.co/character/123962/Tempest-Rimuru). Before he met Rimuru, he went by the nicknames Black or Noir, the latter which he received from his fellow Primordial kin."
+  },
+  {
+    "name": "Diablo",
+    "form": "Demon Peer, poder consolidado",
+    "season": "Temporada 3",
+    "power": 12000000,
+    "archetype": "demonBlack",
+    "image": "assets/images/characters/diablo-demon-peer-poder-consolidado.jpg",
+    "description": "Diablo is the Black Primordial and a loyal servant of [Rimuru Tempest](https://anilist.co/character/123962/Tempest-Rimuru). Before he met Rimuru, he went by the nicknames Black or Noir, the latter which he received from his fellow Primordial kin."
+  },
+  {
+    "name": "Benimaru",
+    "form": "Ogro, comandante de la aldea",
+    "season": "Temporada 1",
+    "power": 800,
+    "archetype": "oni",
+    "image": "assets/images/characters/benimaru-ogro-comandante-de-la-aldea.jpg",
+    "description": "Benimaru Shinmon is a hybrid Second and Third Generation, as well as the Captain of Special Fire Force Company 7. Benimaru is regarded as the strongest Fire Officer in the Special Fire Force."
+  },
+  {
+    "name": "Benimaru",
+    "form": "Kijin, tras la evolución masiva",
+    "season": "Temporada 1",
+    "power": 15000,
+    "archetype": "oni",
+    "image": "assets/images/characters/benimaru-kijin-tras-la-evolucion-masiva.jpg",
+    "description": "Benimaru Shinmon is a hybrid Second and Third Generation, as well as the Captain of Special Fire Force Company 7. Benimaru is regarded as the strongest Fire Officer in the Special Fire Force."
+  },
+  {
+    "name": "Benimaru",
+    "form": "Fair Oni, Rey de la Llama",
+    "season": "Temporada 2 Parte 2",
+    "power": 900000,
+    "archetype": "oniFire",
+    "image": "assets/images/characters/benimaru-fair-oni-rey-de-la-llama.jpg",
+    "description": "Benimaru Shinmon is a hybrid Second and Third Generation, as well as the Captain of Special Fire Force Company 7. Benimaru is regarded as the strongest Fire Officer in the Special Fire Force."
+  },
+  {
+    "name": "Shion",
+    "form": "Ogro, secretaria de Rimuru",
+    "season": "Temporada 1",
+    "power": 700,
+    "archetype": "oni",
+    "image": "assets/images/characters/shion-ogro-secretaria-de-rimuru.jpg",
+    "description": "\"War Lord\" Shion is Rimuru’s first servant to be in charge of his care as his personal secretary. She is also the leader of the Yomigaeri and also one of Rimuru's strongest fighters and is coveted by many of the Demon Lords who have met her."
+  },
+  {
+    "name": "Shion",
+    "form": "Kijin, tras la evolución masiva",
+    "season": "Temporada 1",
+    "power": 12000,
+    "archetype": "oni",
+    "image": "assets/images/characters/shion-kijin-tras-la-evolucion-masiva.jpg",
+    "description": "\"War Lord\" Shion is Rimuru’s first servant to be in charge of his care as his personal secretary. She is also the leader of the Yomigaeri and also one of Rimuru's strongest fighters and is coveted by many of the Demon Lords who have met her."
+  },
+  {
+    "name": "Shion",
+    "form": "Resucitada con Habilidad Única",
+    "season": "Temporada 2 Parte 1",
+    "power": 400000,
+    "archetype": "blade",
+    "image": "assets/images/characters/shion-resucitada-con-habilidad-unica.jpg",
+    "description": "\"War Lord\" Shion is Rimuru’s first servant to be in charge of his care as his personal secretary. She is also the leader of the Yomigaeri and also one of Rimuru's strongest fighters and is coveted by many of the Demon Lords who have met her."
+  },
+  {
+    "name": "Souei",
+    "form": "Ogro, jefe de espionaje",
+    "season": "Temporada 1",
+    "power": 650,
+    "archetype": "oni",
+    "image": "assets/images/characters/souei-ogro-jefe-de-espionaje.jpg",
+    "description": "__Height__: 180 cm (Kijin), 190 cm (Ogre) Souei is an Ogre that was among the third group of subordinates to be named by Rimuru Tempest. He is Rimuru's faithful shadow and the leader of the Shadow Squad of the Jura Tempest Federation."
+  },
+  {
+    "name": "Souei",
+    "form": "Kijin, fortalecido",
+    "season": "Temporada 2 Parte 1",
+    "power": 300000,
+    "archetype": "blade",
+    "image": "assets/images/characters/souei-kijin-fortalecido.jpg",
+    "description": "__Height__: 180 cm (Kijin), 190 cm (Ogre) Souei is an Ogre that was among the third group of subordinates to be named by Rimuru Tempest. He is Rimuru's faithful shadow and the leader of the Shadow Squad of the Jura Tempest Federation."
+  },
+  {
+    "name": "Hakuro",
+    "form": "Kijin, maestro de espada",
+    "season": "Temporada 1",
+    "power": 10000,
+    "archetype": "blade",
+    "image": "assets/images/characters/hakuro-kijin-maestro-de-espada.jpg",
+    "description": "Hakurou is a Fair Oni and is a loyal follower of Rimuru Tempest. He was one of the survivors of the Orc attack. He was also the teacher of the Dwarven King."
+  },
+  {
+    "name": "Hakuro",
+    "form": "Kijin, poder refinado",
+    "season": "Temporada 2 Parte 2",
+    "power": 250000,
+    "archetype": "blade",
+    "image": "assets/images/characters/hakuro-kijin-poder-refinado.jpg",
+    "description": "Hakurou is a Fair Oni and is a loyal follower of Rimuru Tempest. He was one of the survivors of the Orc attack. He was also the teacher of the Dwarven King."
+  },
+  {
+    "name": "Gobta",
+    "form": "Goblin común",
+    "season": "Temporada 1",
+    "power": 50,
+    "archetype": "goblin",
+    "image": "assets/images/characters/gobta-goblin-comun.jpg",
+    "description": "Gobta is a hobgoblin and is one of Rimuru Tempest's followers. Though he seems to be air-headed he tends to be a hard-worker and dependable when the time calls for it."
+  },
+  {
+    "name": "Gobta",
+    "form": "Hobgoblin, tras la bendición",
+    "season": "Temporada 1",
+    "power": 300,
+    "archetype": "goblin",
+    "image": "assets/images/characters/gobta-hobgoblin-tras-la-bendicion.jpg",
+    "description": "Gobta is a hobgoblin and is one of Rimuru Tempest's followers. Though he seems to be air-headed he tends to be a hard-worker and dependable when the time calls for it."
+  },
+  {
+    "name": "Gobta",
+    "form": "Kijin menor, jinete de Ranga",
+    "season": "Temporada 2 Parte 1",
+    "power": 8000,
+    "archetype": "goblin",
+    "image": "assets/images/characters/gobta-kijin-menor-jinete-de-ranga.jpg",
+    "description": "Gobta is a hobgoblin and is one of Rimuru Tempest's followers. Though he seems to be air-headed he tends to be a hard-worker and dependable when the time calls for it."
+  },
+  {
+    "name": "Ranga",
+    "form": "Lobo Estelar, cría",
+    "season": "Temporada 1",
+    "power": 600,
+    "archetype": "wolf",
+    "image": "assets/images/characters/ranga-lobo-estelar-cria.jpg",
+    "description": "__Height:__ 178 cm (5'10\") __Talent:__ Snowboarding, Skateboarding At first glance, Langa appears to be a very stoic young man, barely showing any emotions. But on the inside, he’s more complex and appears to be more confident."
+  },
+  {
+    "name": "Ranga",
+    "form": "Lobo Estelar Evolucionado",
+    "season": "Temporada 2 Parte 1",
+    "power": 200000,
+    "archetype": "wolf",
+    "image": "assets/images/characters/ranga-lobo-estelar-evolucionado.jpg",
+    "description": "__Height:__ 178 cm (5'10\")\n__Talent:__ Snowboarding, Skateboarding\n\nAt first glance, Langa appears to be a very stoic young man, barely showing any emotions. But on the inside, he’s more complex and appears to be more confident.\n\nLanga is a teenage boy with blue hair that grows past his ears and blue eyes. He is above average height as he’s taller than [Reki](https://anilist.co/character/195120/Reki-Kyan). Throughout the series, Langa wears the average high school uniform of black pants, a yellow jacket, and a white button-down shirt. But when he associates with [Reki](https://anilist.co/character/195120/Reki-Kyan) he wears baggy clothes consisting of dark pants, a blue coat, and a gray-colored shirt.\n\nLanga was born in Canada to a Japanese mother and Canadian father and grew up snowboarding. As a teenager, he and his mother moved to Okinawa to start anew."
+  },
+  {
+    "name": "Hinata Sakaguchi",
+    "form": "Santa de Occidente, espadachín",
+    "season": "Temporada 1",
+    "power": 350000,
+    "archetype": "blade",
+    "image": "assets/images/characters/hinata-sakaguchi-santa-de-occidente-espadachin.jpg",
+    "description": "Hinata Sakaguchi is an otherworlder and the leader of the Imperial Guards under the Pope's direct command. Along with Yuuki and Class S, she's a former student of Shizue Izawa. ~!At first she thought monsters should all be exterminated."
+  },
+  {
+    "name": "Clayman",
+    "form": "Demon Lord, titiritero",
+    "season": "Temporada 1",
+    "power": 200000,
+    "archetype": "demonLord",
+    "image": "assets/images/characters/clayman-demon-lord-titiritero.jpg",
+    "description": "Demon Lord Clayman, is one of the ten demon lords that ~!existed before Rimuru became a demon lord. He turned into Kazaream's underling when Kazaream turned him into a demon lord.!~"
+  },
+  {
+    "name": "Leon Cromwell",
+    "form": "Demon Lord, Rey de Eurazania",
+    "season": "Temporada 2 Parte 2",
+    "power": 50000000,
+    "archetype": "demonLord",
+    "image": "assets/images/characters/leon-cromwell-demon-lord-rey-de-eurazania.jpg",
+    "description": "Leon Cromwell is a former hero and a current Demon Lord of the Eight-pointed Star Octagram. He is the ruler of El Dorado, an island nation located south-west of the world."
+  },
+  {
+    "name": "Frey",
+    "form": "Demon Lord, la Bruja Voladora",
+    "season": "Temporada 2 Parte 2",
+    "power": 5000000,
+    "archetype": "witch",
+    "image": "assets/images/characters/frey-demon-lord-la-bruja-voladora.jpg",
+    "description": "Qifrey is a witch and [Coco](https://anilist.co/character/129840/Coco)'s teacher. He runs an atelier and currently has four disciples. He is a caring teacher who patiently teaches his students magic."
+  },
+  {
+    "name": "Dagruel",
+    "form": "Demon Lord, el Puño de Hierro",
+    "season": "Temporada 2 Parte 2",
+    "power": 6000000,
+    "archetype": "fist",
+    "image": "assets/images/characters/dagruel-demon-lord-el-puno-de-hierro.jpg",
+    "description": "\"Earthquake\" Daggrull is a giant that is close friends with Deeno. He is the fourth seat of the Octagram (Eight-Star Demon Lords)."
+  },
+  {
+    "name": "Carrion",
+    "form": "Demon Lord, el Rey Bestia",
+    "season": "Temporada 2 Parte 2",
+    "power": 4000000,
+    "archetype": "beastKing",
+    "image": "assets/images/characters/carrion-demon-lord-el-rey-bestia.jpg",
+    "description": "~!Karion is one of the ten demon lords that existed before Rimuru became a demon lord. During the Walpurgis Banquet where Rimuru killed Clayman. Karion became a subordinate of Milim.!~"
+  },
+  {
+    "name": "Ramiris",
+    "form": "Demon Lord, guardiana del laberinto",
+    "season": "Temporada 1",
+    "power": 1500000,
+    "archetype": "fairy",
+    "image": "assets/images/characters/ramiris-demon-lord-guardiana-del-laber.jpg",
+    "description": "Ramiris is a fairy that resides inside of Tempest's Underground Labyrinth. She is also one of the Eight-Star Demon Lords."
+  },
+  {
+    "name": "Velgrynd",
+    "form": "Dragona Élite, Reina del Fuego",
+    "season": "Temporada 2 Parte 2",
+    "power": 20000000,
+    "archetype": "dragon",
+    "image": "assets/images/characters/velgrynd-dragona-elite-reina-del-fuego.jpg",
+    "description": "Velgrynd is the third of the True Dragon species. She is known for her cardinal red dragon body, scorching heat abilities, and insanely fast movement speed."
+  },
+  {
+    "name": "Velzard",
+    "form": "Dragona del Hielo, la Blanca",
+    "season": "Novela / Avanzado",
+    "power": 18000000,
+    "archetype": "dragon",
+    "image": "assets/images/characters/velzard-dragona-del-hielo-la-blanca.jpg",
+    "description": "Velzard, also known as White Ice Dragon, is the second-oldest of the four True Dragons and the partner of Guy Crimson. Uninterested in most worldly matters, Velzard usually spends her time in the Palace of White Ice, releasing her aura that keeps the Ice Continent frozen."
+  },
+  {
+    "name": "Veldanava",
+    "form": "Dios Dragón Original (leyenda)",
+    "season": "Novela / Avanzado",
+    "power": 100000000,
+    "archetype": "dragon",
+    "image": null,
+    "description": ""
+  },
+  {
+    "name": "Chloe Aubert",
+    "form": "Portadora del Hero, temporal",
+    "season": "Temporada 2 Parte 2",
+    "power": 2500000,
+    "archetype": "blade",
+    "image": "assets/images/characters/chloe-aubert-portadora-del-hero-temporal.jpg",
+    "description": "One of the children who were incompletely summoned. Chloe is a quiet child who loves books."
+  },
+  {
+    "name": "Kagurazaka Yuuki",
+    "form": "Manejadora de Héroes, forma final",
+    "season": "Temporada 2 Parte 2",
+    "power": 25000000,
+    "archetype": "brain",
+    "image": "assets/images/characters/kagurazaka-yuuki-manejadora-de-heroes-forma-fin.jpg",
+    "description": "A former student of Shizu who originally came from Japan and ~!one of the main antagonists of the series. !~ Yuuki serves as the Guild Master of the Adventurers' Guild in the kingdom of Ingracia, and he loves manga."
+  },
+  {
+    "name": "Gelmud",
+    "form": "Fusionado con fragmento de Charybdis",
+    "season": "Temporada 1",
+    "power": 100000,
+    "archetype": "chaos",
+    "image": "assets/images/characters/gelmud-fusionado-con-fragmento-de-cha.jpg",
+    "description": "A majin that served Demon Lord Clayman of the Ten Great Demon Lords. He wanted to make Orc Lord the new Demon Lord and manipulate him but instead was devoured by it."
+  },
+  {
+    "name": "Charybdis",
+    "form": "Catástrofe original, tormenta viviente",
+    "season": "Temporada 1",
+    "power": 700000,
+    "archetype": "chaos",
+    "image": "assets/images/characters/charybdis-catastrofe-original-tormenta-v.jpg",
+    "description": "Second season of Tensei shitara Ken deshita."
+  },
+  {
+    "name": "Testarossa",
+    "form": "Demon Peer, comandante",
+    "season": "Temporada 3",
+    "power": 10000000,
+    "archetype": "demonBlack",
+    "image": "assets/images/characters/testarossa-demon-peer-comandante.jpg",
+    "description": "__Intelligent Device:__ [Bardiche](https://anilist.co/character/220250/Bardiche) __Rank:__ S+, (StrikerS) Captain, Lightning Unit, Lightning One Fate first appears with Arf and Bardiche, materializing in the town in search of Jewel Seeds."
+  },
+  {
+    "name": "Ultima",
+    "form": "Demon Peer, caótica",
+    "season": "Temporada 3",
+    "power": 9500000,
+    "archetype": "demonBlack",
+    "image": "assets/images/characters/ultima-demon-peer-caotica.jpg",
+    "description": "__Teams:__ Yukigaoka Junior High (Former); Karasuno High (Current) __Number:__ 1 (Junior High 3rd Year); 10 (High School 1st year); 5 (High School 3rd year) __Position:__ Captain (Junior High); Outside Hitter (Junior High); Middle Blocker (High School) Hinata has an unusually high ability to jump."
+  },
+  {
+    "name": "Carrera",
+    "form": "Demon Peer, estratega",
+    "season": "Temporada 3",
+    "power": 9200000,
+    "archetype": "demonBlack",
+    "image": "assets/images/characters/carrera-demon-peer-estratega.jpg",
+    "description": "Carera was one of the demons convened by Diablo to serve Rimuru. She was originally an Arch Demon, but after being named by Rimuru she evolved into a Demon Peer."
+  },
+  {
+    "name": "Rigurd",
+    "form": "Goblin King, jefe de la aldea",
+    "season": "Temporada 1",
+    "power": 200,
+    "archetype": "goblin",
+    "image": "assets/images/characters/rigurd-goblin-king-jefe-de-la-aldea.jpg",
+    "description": "Formerly the chief of the goblin village Rimuru comes across. He's now the acting prime minister of the Jura Tempest Federation. He evolved into a hobgoblin when Rimuru named him."
+  },
+  {
+    "name": "Geld",
+    "form": "Ogro, guerrero de la aldea vecina",
+    "season": "Temporada 1",
+    "power": 500,
+    "archetype": "oni",
+    "image": "assets/images/characters/geld-ogro-guerrero-de-la-aldea-veci.jpg",
+    "description": "He is one of the fourth group of subordinates to be named by Rimuru Tempest. As the right-hand man of the deceased Orc Lord, he was given the same name as him, as a memento and token of appreciation, similar to how Rigur was named after his older brother."
+  },
+  {
+    "name": "Geld",
+    "form": "Kijin, tras la evolución",
+    "season": "Temporada 2 Parte 1",
+    "power": 100000,
+    "archetype": "oni",
+    "image": "assets/images/characters/geld-kijin-tras-la-evolucion.jpg",
+    "description": "He is one of the fourth group of subordinates to be named by Rimuru Tempest. As the right-hand man of the deceased Orc Lord, he was given the same name as him, as a memento and token of appreciation, similar to how Rigur was named after his older brother."
+  },
+  {
+    "name": "Kaijin",
+    "form": "Enano herrero exiliado",
+    "season": "Temporada 1",
+    "power": 300,
+    "archetype": "hammer",
+    "image": "assets/images/characters/kaijin-enano-herrero-exiliado.jpg",
+    "description": "Kaijin Hime Do-S is a female dominatrix monster of the Monster Association who uses her whip to turn her opponents into love slaves. She is able to enslave the Blizzard Bunch, but Blizzard herself is able to resist."
+  },
+  {
+    "name": "Adalmann",
+    "form": "Death Spirit Lord, no-muerto leal",
+    "season": "Temporada 2 Parte 1",
+    "power": 150000,
+    "archetype": "ghost",
+    "image": "assets/images/characters/adalmann-death-spirit-lord-no-muerto-le.jpg",
+    "description": "Adalman, formerly the Index Finger of Clayman's Five Fingers, is an Undead and the guardian of the 70th floor of Ramiris' Labyrinth."
+  },
+  {
+    "name": "Shizu (Shizue Izawa)",
+    "form": "Portadora del Hero original",
+    "season": "Temporada 1",
+    "power": 180000,
+    "archetype": "blade",
+    "image": null,
+    "description": ""
+  },
+  {
+    "name": "Gazel Dwargo",
+    "form": "Rey Enano, guerrero real",
+    "season": "Temporada 1",
+    "power": 4000,
+    "archetype": "hammer",
+    "image": "assets/images/characters/gazel-dwargo-rey-enano-guerrero-real.jpg",
+    "description": "Species: Dwarf Blessing / Divine Protection: Divine Protector of Ancestor Title: King of Armament Nation Dwargon. The king of Dwargon, Gazel Dwargo, the third generation king of Dwargon, but possesses a similar aura to that of his grandfather in his younger days."
+  }
 ]
