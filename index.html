@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Escala de Poder · Tensura</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body class="min-h-screen relative">
+
+  <!-- ambient particles -->
+  <div class="particle" style="width:6px;height:6px;background:#38bdf8;top:12%;left:8%;animation-delay:0s;"></div>
+  <div class="particle" style="width:4px;height:4px;background:#a855f7;top:30%;left:85%;animation-delay:2s;"></div>
+  <div class="particle" style="width:5px;height:5px;background:#f0c419;top:60%;left:20%;animation-delay:4s;"></div>
+  <div class="particle" style="width:3px;height:3px;background:#38bdf8;top:75%;left:70%;animation-delay:6s;"></div>
+  <div class="particle" style="width:5px;height:5px;background:#a855f7;top:15%;left:55%;animation-delay:1s;"></div>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="relative z-10 max-w-6xl mx-auto px-5 pt-14 pb-8 text-center">
+    <div class="blob w-16 h-16 mx-auto mb-5"></div>
+    <p class="font-mono text-xs tracking-[0.35em] text-cyan-400 mb-3">TENSEI SHITARA SLIME DATTA KEN</p>
+    <h1 class="font-display font-900 text-4xl sm:text-5xl md:text-6xl leading-tight">
+      <span class="bg-gradient-to-r from-sky-400 via-fuchsia-400 to-amber-300 bg-clip-text text-transparent">Escala de Puntos de Existencia</span>
+    </h1>
+    <p class="text-slate-400 mt-4 max-w-2xl mx-auto text-sm sm:text-base">
+      Del limo más humilde al dios digital. Un registro de <span id="totalCount" class="text-slate-200 font-semibold">0</span> formas y evoluciones,
+      ordenadas de mayor a menor poder. Selecciona dos para forzar un <span class="text-amber-300">Duelo de Poder</span>.
+    </p>
+  </header>
+
+  <!-- ===================== CONTROLS ===================== -->
+  <div class="relative z-10 max-w-6xl mx-auto px-5 mb-4">
+    <div class="flex flex-col md:flex-row gap-3 md:items-center md:justify-between">
+      <!-- search -->
+      <div class="relative w-full md:w-80">
+        <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z"/></svg>
+        <input id="searchInput" type="text" placeholder="Buscar personaje..."
+          class="w-full bg-[#0f1424] border border-[#1f2438] rounded-full pl-9 pr-4 py-2.5 text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-sky-500/60 focus:border-transparent">
+      </div>
+      <!-- season filters -->
+      <div id="seasonFilters" class="flex flex-wrap gap-2 justify-start md:justify-end"></div>
+    </div>
+  </div>
+
+  <!-- results meta -->
+  <div class="relative z-10 max-w-6xl mx-auto px-5 mb-3 flex items-center justify-between text-xs text-slate-500 font-mono">
+    <span id="resultCount">Mostrando 0 registros</span>
+    <span class="hidden sm:inline">Ordenado por poder ↓</span>
+  </div>
+
+  <!-- ===================== LIST ===================== -->
+  <main class="relative z-10 max-w-6xl mx-auto px-5 pb-40">
+    <div id="characterList" class="grid grid-cols-1 gap-3"></div>
+    <p id="emptyState" class="hidden text-center text-slate-500 py-16 font-display text-lg">Ningún personaje coincide con la búsqueda. Ni el Raphael podría encontrarlo.</p>
+  </main>
+
+  <!-- ===================== DUEL PANEL ===================== -->
+  <div id="duelPanel" class="fixed bottom-0 left-0 right-0 z-30 translate-y-full">
+    <div class="max-w-5xl mx-auto bg-gradient-to-b from-[#131a30] to-[#0a0d18] border-t border-x border-[#2a2f52] rounded-t-2xl shadow-[0_-10px_50px_rgba(0,0,0,0.6)] px-5 sm:px-8 pt-5 pb-6">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="font-display text-lg sm:text-xl tracking-wide text-amber-300">⚔ Duelo de Poder</h2>
+        <button id="closeDuel" class="text-slate-400 hover:text-white text-sm border border-[#2a2f52] rounded-full w-7 h-7 flex items-center justify-center hover:border-slate-400 transition">✕</button>
+      </div>
+      <div id="duelContent"></div>
+    </div>
+  </div>
+
+  <footer class="relative z-10 text-center text-xs text-slate-600 pb-8 font-mono">
+    Datos estimados con fines narrativos/didácticos a partir de la obra de Fuse. "Este mundo... realmente es interesante."
+  </footer>
+
+<script type="module" src="src/js/main.js"></script>
+</body>
+</html>

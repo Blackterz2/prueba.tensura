@@ -1,0 +1,5 @@
+node_modules/
+.env
+assets/images/characters/*.jpg
+assets/images/characters/*.png
+assets/images/characters/*.webp

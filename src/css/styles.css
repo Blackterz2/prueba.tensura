@@ -1,0 +1,213 @@
+/* ==========================================================================
+   Escala de Poder · Tensura — Estilos personalizados
+   Tailwind CDN maneja lo utilitario; acá va todo lo custom.
+   ========================================================================== */
+
+:root {
+  --bg-void: #080a14;
+  --bg-deep: #0d1120;
+  --bg-panel: #121729;
+  --slime: #38bdf8;
+  --slime-2: #22d3ee;
+  --arcane: #a855f7;
+  --arcane-2: #7c3aed;
+  --gold: #f0c419;
+  --gold-2: #d4af37;
+  --line: #1f2438;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--arcane-2) var(--bg-deep);
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--bg-deep);
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--arcane-2);
+  border-radius: 8px;
+}
+
+body {
+  background:
+    radial-gradient(ellipse 90% 55% at 15% -10%, rgba(124, 58, 237, 0.25), transparent 60%),
+    radial-gradient(ellipse 70% 45% at 100% 0%, rgba(56, 189, 248, 0.15), transparent 55%),
+    var(--bg-void);
+  font-family: 'Inter', sans-serif;
+  color: #e6e9f5;
+}
+
+.font-display {
+  font-family: 'Cinzel', serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* ── Ambient floating slime particles ── */
+.particle {
+  position: fixed;
+  border-radius: 9999px;
+  pointer-events: none;
+  filter: blur(1px);
+  opacity: 0.35;
+  animation: float 14s ease-in-out infinite;
+  z-index: 0;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) translateX(0); }
+  50%      { transform: translateY(-40px) translateX(20px); }
+}
+
+/* ── Slime blob ── */
+.blob {
+  background: radial-gradient(circle at 35% 30%, #7dd3fc, #0ea5e9 55%, #0369a1 100%);
+  border-radius: 60% 40% 55% 45% / 50% 60% 40% 50%;
+  box-shadow: 0 0 40px rgba(56, 189, 248, 0.45), inset -6px -6px 14px rgba(2, 20, 40, 0.4);
+  animation: wobble 6s ease-in-out infinite;
+}
+
+@keyframes wobble {
+  0%, 100% { border-radius: 60% 40% 55% 45% / 50% 60% 40% 50%; }
+  50%      { border-radius: 45% 55% 40% 60% / 55% 45% 60% 40%; }
+}
+
+/* ── Character cards ── */
+.card {
+  background: linear-gradient(160deg, var(--bg-panel) 0%, #0f1424 100%);
+  border: 1px solid var(--line);
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  border-color: #3a4166;
+}
+
+.card.selected {
+  border-color: var(--gold-2);
+  box-shadow: 0 0 0 1px var(--gold-2), 0 0 22px rgba(240, 196, 25, 0.25);
+}
+
+/* ── Power bars ── */
+.power-track {
+  background: #0a0d18;
+  border: 1px solid var(--line);
+}
+
+.power-fill {
+  transition: width 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ── Season chips ── */
+.chip {
+  border: 1px solid var(--line);
+  transition: all 0.2s ease;
+}
+
+.chip.active {
+  background: linear-gradient(90deg, var(--arcane-2), var(--slime));
+  border-color: transparent;
+  color: #fff;
+  box-shadow: 0 0 16px rgba(124, 58, 237, 0.4);
+}
+
+.chip:not(.active):hover {
+  border-color: var(--slime);
+  color: var(--slime);
+}
+
+/* ── Checkboxes ── */
+input[type="checkbox"] {
+  accent-color: var(--gold-2);
+}
+
+/* ── Duel panel ── */
+#duelPanel {
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.duel-bar {
+  transition: width 1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ── Glow for God-tier ── */
+.glow-god {
+  box-shadow: 0 0 24px rgba(240, 196, 25, 0.35), inset 0 0 30px rgba(240, 196, 25, 0.05);
+}
+
+/* ── Avatar (SVG icon / character image) ── */
+.avatar {
+  border-radius: 60% 40% 55% 45% / 50% 60% 40% 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset -4px -4px 10px rgba(0, 0, 0, 0.35), inset 3px 3px 8px rgba(255, 255, 255, 0.08);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.avatar-lg {
+  border-radius: 55% 45% 50% 50% / 45% 55% 45% 55%;
+}
+
+/* ── Avatar with real image ── */
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+/* ── Description accordion ── */
+.desc-toggle {
+  font-size: 0.7rem;
+  color: #64748b;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  user-select: none;
+}
+
+.desc-toggle:hover {
+  color: var(--slime);
+}
+
+.desc-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease;
+  opacity: 0;
+}
+
+.desc-body.open {
+  max-height: 120px;
+  opacity: 1;
+}
+
+/* ── Selection highlight ── */
+::selection {
+  background: var(--arcane-2);
+  color: #fff;
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  .blob,
+  .particle,
+  .power-fill,
+  .duel-bar,
+  #duelPanel,
+  .desc-body {
+    animation: none !important;
+    transition: none !important;
+  }
+}
